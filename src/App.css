@@ -36,3 +36,158 @@
     transform: rotate(360deg);
   }
 }
+
+.img1 {
+  background-image: url(./resources/images/trees.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+
+.img2 {
+  position: relative;
+  background-image: url(./resources/images/img2.jpg);
+  min-height: 100%;
+  max-height: 250%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  
+}
+
+.img3 {
+  position: relative;
+  background-image: url(./resources/images/img3.jpg);
+  min-height: 100%;
+  max-height: 150%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.bar1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #b7cbd6;
+  
+}
+
+.bar2 {
+   position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #ccc7c2;
+  
+}
+
+.bar3 {
+  
+  left: 0;
+  top: 1%;
+  width: 100%;
+  text-align: center;
+  color: #bc8b5a;
+}
+
+.navbar {
+  background-color: #ff000000 !important;
+  
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  color: #ffffff !important;
+  background-color: #d5c4a7;
+}
+
+.navbar-collapse {
+  color: #ffffff !important;
+  background-color: #d5c4a7;
+  text-align: center;
+}
+
+.profile {
+  border-radius: 50%;
+  left: 0;
+  top: 12.5%;
+  width: 25%;
+
+}
+
+.do1{
+  background-color: #051f1d8a;
+}
+
+.do2 {
+  background-color: #6d564391;
+}
+
+.do3 {
+  background-color: #0f101c7a;
+}
+
+.black-overlay {
+  background: #0000004d;
+  min-height: 115%;
+  max-height: 250%;
+}
+
+.contact-overlay {
+  background: #0000004d;
+  height: 78%;
+}
+
+.portfolio-image {
+  height: auto;
+  width: auto;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.portImg {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.resize {
+  width: 50%;
+  height: 50%;
+
+}
+
+#portfolio
+
+#contact
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .img2{
+      height: 250% !important; 
+  }
+  .img3{
+      height: 140% !important;
+  }
+}
+  
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+      .img2{
+          height: 150%;
+      }
+      .img3 {
+          height: 100%;
+      }
+}

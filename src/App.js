@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './resources/js/title'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <h1>Dru Sanchez
+  <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ " Motivated.", " Determined.", " Enthusiatstic.", " Quick to learn."]'></span>
+        </h1>
+
+        <div className="img1">
+          
+        </div>
+
+      </div>
+
+
+
+
     </div>
   );
 }
