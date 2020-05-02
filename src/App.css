@@ -10,7 +10,7 @@ html, body {
 
 .caption {
   position: absolute;
-  top: 5%;
+  bottom: 5%;
   left: 5%;
   text-align: right;
   color: #fff;
@@ -107,6 +107,42 @@ p { line-height: 1.333em; }
 position: relative;
 width: 100px;
 }
+
+.whatIDo{
+  font-size: 10rem;
+}
+
+.captionMain {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  text-align: right;
+  color: #fff;
+}
+
+.captionPortfolio1{
+  position: absolute;
+  margin-left: 0;
+  top: 0;
+  
+  color: #fff;
+}
+
+.captionPortfolio2{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+}
+
+.portImg {
+  display: block;
+  max-width: 25%;
+  height: 50%;
+}
+
+
+
 
 #portfolio
 
