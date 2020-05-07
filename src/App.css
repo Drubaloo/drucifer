@@ -8,141 +8,162 @@ html, body {
   height:100%;
 }
 
-.caption {
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
-  text-align: right;
-  color: #fff;
-}
-p, h1 { margin: 0; }
-h1 { margin-bottom: 0.2em; }
-p { line-height: 1.333em; }
-
-/* full width/height container */
-#slides-container {
-  width: 100%;
+.img1 {
+  background-image: url("./resources/images/trees.jpg");
   height: 100%;
-  overflow: hidden;
-}
-
-/* double the height/width of a viewport */
-#slides {
-  width: 200%;
-  height: 200%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-.slide {
-  position:absolute;
-  top:0;
-  left:0;
-  width:50%;
-  height:50%;
-}
-#slide-1 {
-  background: url('./resources/images/trees.jpg') no-repeat center center;
-  background-size: cover;
-}
-#slide-2 {
-  background: url('./resources/images/img2.jpg') no-repeat center center;
-  background-size: cover;
-  -webkit-transform: translate(0,100%);
-  -ms-transform: translate(0,100%);
-  transform: translate(0,100%);
-}
-#slide-3 {
-  background: url('./resources/images/img3.jpg') no-repeat center center;
-  background-size: cover;
-  -webkit-transform: translate(100%,100%);
-  -ms-transform: translate(100%,100%);
-  transform: translate(100%,100%);
-}
-#slide-3 .caption {
-  left: 5%;
-  right: auto;
-  color: #47373f;
-}
-#slide-4 {
-  background: url('./resources/images/Profile.jpg') no-repeat center center;
-  background-size: cover;
-  -webkit-transform: translate(100%,0%);
-  -ms-transform: translate(100%,0%);
-  transform: translate(100%,0%);
-}
-#slide-4 .caption {
-  right: auto;
-  left: 5%;
-  top: 5%;
-  bottom: auto;
-  color: #47373f;
-}
-
-#helper {
-  position:absolute;
-  left:0;
-  top: 0;
-  height:600%;
-  width: 0;
-}
-.marker {
-  height: 25%;
   width: 100%;
-}
-.red {
-  background-color: red;
-}
-.green {
-  background-color: green;
-}
-.blue {
-  background-color: blue;
-}
-.yellow {
-  background-color: yellow;
-}
-
-.bioContainer{
-position: relative;
-width: 100px;
-}
-
-.whatIDo{
-  font-size: 10rem;
-}
-
-.captionMain {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  text-align: right;
-  color: #fff;
-}
-
-.captionPortfolio1{
-  position: absolute;
-  margin-left: 0;
-  top: 0;
-  
-  color: #fff;
-}
-
-.captionPortfolio2{
-  position: absolute;
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0; 
+  padding-bottom: 100vh; 
+  left: 0; 
   right: 0;
-  top: 0;
-  color: #fff;
+}
+.container{
+  
+  display: grid;
+  
+}
+.img2 {
+  position: relative;
+  background-image: url("./resources/images/img2.jpg");
+  min-height: 100%;
+  max-height: 250%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  padding-bottom: 100vh; 
+  
+  
+}
+
+.img3 {
+  position: relative;
+  background-image: url("./resources/images/img3.jpg");
+  min-height: 100%;
+  max-height: 150%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  padding-bottom: 100vh;
+}
+
+.bar1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #f5f4f4;
+  background-color: #017e69a2;
+}
+
+.container1{
+  animation: shake 5s;
+}
+
+@keyframes shake{
+  0% {transform: rotate(0deg)}
+  50%{transform: rotate(5deg)}
+  100% {transform: rotate(0deg)}
+}
+
+
+
+.bar2 {
+   position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #ccc7c2;
+  
+}
+
+.bar3 {
+  
+  left: 0;
+  top: 1%;
+  width: 100%;
+  text-align: center;
+  color: #bc8b5a;
+}
+
+.navbar {
+  background-color: #ff000000 !important;
+  
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  color: #ffffff !important;
+  background-color: #d5c4a7;
+}
+
+.navbar-collapse {
+  color: #ffffff !important;
+  background-color: #d5c4a7;
+  text-align: center;
+}
+
+.profile {
+  border-radius: 50%;
+  left: 0;
+  top: 12.5%;
+  width: 25%;
+
+}
+
+.do1{
+  background-color: #051f1d8a;
+}
+
+.do2 {
+  background-color: #6d564391;
+}
+
+.do3 {
+  background-color: #0f101c7a;
+}
+
+.black-overlay {
+  background: #0000004d;
+  min-height: 115%;
+  max-height: 250%;
+}
+
+.contact-overlay {
+  background: #0000004d;
+  height: 78%;
+}
+
+.portfolio-image {
+  height: auto;
+  width: auto;
+}
+
+.image {
+  max-width: 100%;
 }
 
 .portImg {
-  display: block;
-  max-width: 25%;
-  height: 50%;
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
 
-
-
+.resize {
+  width: 50%;
+  height: 50%;
+  color: black;
+  font-size: xx-large;
+}
 
 #portfolio
 
