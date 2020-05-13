@@ -12,7 +12,7 @@ html, body {
   background-image: url("./resources/images/trees.jpg");
   height: 100%;
   width: 100%;
-  background-attachment: absolute;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,16 +60,15 @@ html, body {
   text-align: center;
   color: #f5f4f4;
   background-color: #017e69a2;
+  animation: shake 2s;
 }
 
 .container1{
-  animation: shake 5s;
 }
 
 @keyframes shake{
-  0% {transform: rotate(0deg)}
-  50%{transform: rotate(5deg)}
-  100% {transform: rotate(0deg)}
+  0% {transform: rotate(0deg); width: 50vw}
+  100% {transform: rotate(0deg); width: 100vw}
 }
 
 
@@ -93,9 +92,11 @@ html, body {
   color: #bc8b5a;
 }
 
-.navbar {
-  background-color: #ff000000 !important;
-  
+.navbar{
+  background-color: #006144f3 !important;
+  width: 100vw;
+  position: fixed;
+  margin-top: 3rem;
 }
 
 .navbar-brand {
@@ -116,9 +117,14 @@ html, body {
 .profile {
   border-radius: 50%;
   left: 0;
-  top: 12.5%;
-  width: 25%;
+  margin-top: 25vh;
+  animation: bounce 5s infinite;
+}
 
+@keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  40% {transform: translateY(-30px);} 
+  60% {transform: translateY(-15px);}
 }
 
 .do1{
@@ -164,6 +170,8 @@ html, body {
   color: black;
   font-size: xx-large;
 }
+
+
 
 #portfolio
 

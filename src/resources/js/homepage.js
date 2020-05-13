@@ -12,37 +12,13 @@ function HomePage() {
 
         <div className="app">
             <div className="img1">
-                <nav className="navbar navbar-toggleable-md navbar-light">
-                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <a className="navbar-brand mx-auto" href="assets/images/Resume.pdf" target="_blank">Resume</a>
-                    <a className="navbar-brand mx-auto">Drubaloo@Outlook.com</a>
-                    <a className="navbar-brand mx-auto">(530)329-2174</a>
-                    <a className="navbar-brand mx-auto" href="https://github.com/Drubaloo">Github</a>
-                    <a className="navbar-brand mx-auto" href="https://www.linkedin.com/in/andru-sanchez-465696194/">LinkedIn</a>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item active">
-                                <a className="nav-link" href="#">Home<span className="sr-only">(current)</span></a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#contact">Contact</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </nav>
+                
 
                 <div className="container container1">
                     <div className="bar1 row mx-auto ">
                         <h1 className="mx-auto">Dru Sanchez
   <span
-                                class="txt-rotate"
+                                className="txt-rotate"
                                 data-period="2000"
                                 data-rotate='[ " Determined.", " Enthusiastic.", " Motiated.", " Developer."]'></span>
                         </h1>
@@ -51,7 +27,7 @@ function HomePage() {
 
 
                     <div className="row">
-                        <img src="./assets/images/Profile.jpg" className="profile m-auto" />
+                        <h1 className="profile mx-auto">▼ KEEP GOING ▼ </h1>
                     </div>
                 </div>
             </div>
@@ -72,7 +48,6 @@ function HomePage() {
             </div>
 
 
-
             <div className="img2 " id="portfolio">
                 <div className="">
                     <div className="container">
@@ -81,16 +56,16 @@ function HomePage() {
                             <h1 className=" do2 mx-auto p-3 col-sm-12">WHAT I'VE DONE</h1>
                             <h5 className="do2 mx-auto col-sm-12">I love building things, have a look.</h5>
                         </div>
-                        <div className="row mx-auto text-center">
-                            <a href="https://drubaloo.github.io/Up-Above/" className="mx-auto mt-4 mr-2 resize"> Up-Above<img src="./assets/images/upAbove.png"
+                        <div className="row mx-auto text-center mt-5">
+                            <a href="https://drubaloo.github.io/Up-Above/" className="mx-auto mt-4 mr-2 resize"> Up-Above<img src= {upAbove}
                                 className="img-fluid" /></a>
 
-                            <a href="https://drubaloo.github.io/Weather-Dashboard/" className="mx-auto mt-4 resize text-center">Weather-Dashboard<img src="./assets/images/weather.png"
-                                className="" /></a>
+                            <a href="https://drubaloo.github.io/Weather-Dashboard/" className="mx-auto mt-4 resize text-center">Mongoose Burger Tracker<img src= {burger}
+                                className="img-fluid" /></a>
 
-                            <a href="https://drubaloo.github.io/Trivia-Quiz/" className="mx-auto mt-4 resize text-center">Batman-Quiz<img src="./assets/images/trivia.png" className="img-fluid" /></a>
+                            <a href="https://drubaloo.github.io/Trivia-Quiz/" className="mx-auto mt-4 resize text-center">Batman-Quiz<img src= {batmanQuiz} className="img-fluid" /></a>
 
-                            <a href="https://meal-mate-1.herokuapp.com/" className="mx-auto mt-4 resize text-center">Meal Mate<img src="./assets/images/meal-mate.png" className="img-fluid" /></a>
+                            <a href="https://meal-mate-1.herokuapp.com/" className="mx-auto mt-4 resize text-center">Meal Mate<img src= {mealMate} className="img-fluid" /></a>
                         </div>
 
 
@@ -114,17 +89,17 @@ function HomePage() {
                 <div className="container contact-overlay">
                     <form className="text-center">
                         <div className="form-group m-2">
-                            <label for="Name">Name</label>
+                            <label htmlFor="Name">Name</label>
                             <input type="text" className="form-control" placeholder="Barry Allen" />
                         </div>
 
                         <div className="form-group m-2">
-                            <label for="email address">Email</label>
+                            <label htmlFor="email address">Email</label>
                             <input type="text" className="form-control" placeholder="2Fast4U@gmail.com" />
                         </div>
 
                         <div className="form-group m-2">
-                            <label for="Message">Message</label>
+                            <label htmlFor="Message">Message</label>
                             <input type="text" className="form-control text-center" style={{ height: "20rem" }}
                                 placeholder="Write me something sweet" />
                         </div>
