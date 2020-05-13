@@ -20,7 +20,7 @@ function HomePage() {
   <span
                                 className="txt-rotate"
                                 data-period="2000"
-                                data-rotate='[ " Determined.", " Enthusiastic.", " Motiated.", " Developer."]'></span>
+                                data-rotate='[ " Determined.", " Enthusiastic.", " Motivated.", " Developer."]'></span>
                         </h1>
 
                     </div>
@@ -58,14 +58,14 @@ function HomePage() {
                         </div>
                         <div className="row mx-auto text-center mt-5">
                             <a href="https://drubaloo.github.io/Up-Above/" className="mx-auto mt-4 mr-2 resize"> Up-Above<img src= {upAbove}
-                                className="img-fluid" /></a>
+                                className="img-fluid portImg" /></a>
 
                             <a href="https://drubaloo.github.io/Weather-Dashboard/" className="mx-auto mt-4 resize text-center">Mongoose Burger Tracker<img src= {burger}
-                                className="img-fluid" /></a>
+                                className="img-fluid portImg" /></a>
 
-                            <a href="https://drubaloo.github.io/Trivia-Quiz/" className="mx-auto mt-4 resize text-center">Batman-Quiz<img src= {batmanQuiz} className="img-fluid" /></a>
+                            <a href="https://drubaloo.github.io/Trivia-Quiz/" className="mx-auto mt-4 resize text-center">Batman-Quiz<img src= {batmanQuiz} className="img-fluid portImg" /></a>
 
-                            <a href="https://meal-mate-1.herokuapp.com/" className="mx-auto mt-4 resize text-center">Meal Mate<img src= {mealMate} className="img-fluid" /></a>
+                            <a href="https://meal-mate-1.herokuapp.com/" className="mx-auto mt-4 resize text-center">Meal Mate<img src= {mealMate} className="img-fluid portImg" /></a>
                         </div>
 
 
