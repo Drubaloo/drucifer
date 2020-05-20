@@ -57,15 +57,15 @@ function HomePage() {
                             <h5 className="do2 mx-auto col-sm-12">I love building things, have a look.</h5>
                         </div>
                         <div className="row mx-auto text-center mt-5">
-                            <a href="https://drubaloo.github.io/Up-Above/" className="mx-auto mt-4 mr-2 resize"> Up-Above<img src= {upAbove}
+                            <a href="https://drubaloo.github.io/Up-Above/" className="mx-auto mt-4 mr-2 resize portText"> Up-Above<img src= {upAbove}
                                 className="img-fluid portImg" /></a>
 
-                            <a href="https://drubaloo.github.io/Weather-Dashboard/" className="mx-auto mt-4 resize text-center">Mongoose Burger Tracker<img src= {burger}
+                            <a href="https://drubaloo.github.io/Weather-Dashboard/" className="mx-auto mt-4 resize text-center portText">Mongoose Burger Tracker<img src= {burger}
                                 className="img-fluid portImg" /></a>
 
-                            <a href="https://drubaloo.github.io/Trivia-Quiz/" className="mx-auto mt-4 resize text-center">Batman-Quiz<img src= {batmanQuiz} className="img-fluid portImg" /></a>
+                            <a href="https://drubaloo.github.io/Trivia-Quiz/" className="mx-auto mt-4 resize text-center portText">Batman-Quiz<img src= {batmanQuiz} className="img-fluid portImg" /></a>
 
-                            <a href="https://meal-mate-1.herokuapp.com/" className="mx-auto mt-4 resize text-center">Meal Mate<img src= {mealMate} className="img-fluid portImg" /></a>
+                            <a href="https://meal-mate-1.herokuapp.com/" className="mx-auto mt-4 resize text-center portText">Meal Mate<img src= {mealMate} className="img-fluid portImg" /></a>
                         </div>
 
 

@@ -8,7 +8,7 @@ function Navbar() {
                         data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <a className="navbar-brand mx-auto" href="assets/images/Resume.pdf" target="_blank">Resume</a>
+                    <a className="navbar-brand mx-auto" href="https://docs.google.com/document/d/1aMwDy0bHTzxdWcxPul_dpR3k3YWZkQuknvYIdFl7PNI/edit?usp=sharing" target="_blank">Resume</a>
                     <a className="navbar-brand mx-auto">Drubaloo@Outlook.com</a>
                     <a className="navbar-brand mx-auto">(530)329-2174</a>
                     <a className="navbar-brand mx-auto" href="https://github.com/Drubaloo">Github</a>
