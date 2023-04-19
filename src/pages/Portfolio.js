@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import projectList from "./assets/projects.json"
 import ProjectCard from '../components/ProjectCard/ProjectCard';
-
+import PerfectScrollbar from 'react-perfect-scrollbar'
 
 export default function Portfolio() {
     const [projectState, setProjects] = useState(projectList)
@@ -86,7 +86,7 @@ export default function Portfolio() {
                 <button style={stylesheet.button} onClick={() => { findProject("API") }}>API</button>
                 <button style={stylesheet.button} onClick={() => { findProject("MYSQL") }}>SQL</button>
             </div>
-            <div style={stylesheet.projectList}>
+            <PerfectScrollbar style={stylesheet.projectList}>
                 <h1 style={stylesheet.title}>Projects</h1>
                 <div>
                     {projectState.map(project => (
@@ -102,7 +102,7 @@ export default function Portfolio() {
                         />
 
                     ))}</div>
-            </div>
+            </PerfectScrollbar>
         </section>
     )
 }

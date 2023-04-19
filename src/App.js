@@ -31,11 +31,11 @@ function App() {
           <Navbar />
         <div style={styleSheet.parent}>
           <Routes>
-            <Route exact path="/portfolio" element={<Portfolio />} />
+            <Route exact path="/drucifer/portfolio" element={<Portfolio />} />
 
-            <Route exact path="/contact" element="<h1>contact</h1>" />
+            <Route exact path="/drucifer/contact" element="<h1>contact</h1>" />
 
-            <Route exact path="/" element={<Homepage />} />
+            <Route exact path="/drucifer/" element={<Homepage />} />
 
           </Routes>
         </div>
