@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Up Above",
+        "image": "https://raw.githubusercontent.com/Drubaloo/Up-Above/master/preview.png",
+        "description": "Using NASA API to display the wonders of space.",
+        "href": "https://drubaloo.github.io/Up-Above/",
+        "tags": ["HTML", "CSS", "JS", "API"]
+    },
+    {
+        "id": 2,
+        "name": "Meal Mate",
+        "image": "https://raw.githubusercontent.com/nick-hernstedt/meal-mate/master/mealmate.png",
+        "description": "Using Yelp API and a database to help 2 people decide where to have dinner.",
+        "href": "https://meal-mate-1.herokuapp.com/",
+        "tags": ["HTML", "CSS", "JS", "API", "MYSQL"]
+    },
+    {
+        "id": 3,
+        "name": "Burger Tracker",
+        "image": "https://raw.githubusercontent.com/Drubaloo/Burger/master/public/assets/images/preview.png",
+        "description": "Using a Mongoose database to keep track of burgers I want to try and Have tried.", 
+        "href": "https://bobs-burger-tracker.herokuapp.com/",
+        "tags": ["HTML", "CSS", "JS", "API", "MYSQL", "EXPRESS", "HANDLEBARS", "NODE"]
+    },
+    {
+        "id": 4,
+        "name": "Middle Earth Employee Directory",
+        "image": "https://raw.githubusercontent.com/Drubaloo/employee-directory/master/preview.png",
+        "description": "Using React to create an employee directory for those who want to explore Middle Earth.",
+        "href": "https://stoic-nightingale-5e3df6.netlify.app/",
+        "tags": ["HTML", "CSS", "JS", "REACT"]
+    },
+    {
+        "id": 5,
+        "name": "Batman Quiz",
+        "image": "https://raw.githubusercontent.com/Drubaloo/Trivia-Quiz/master/assets/images/Screenshot.png",
+        "description": "A short quiz to test myself in JavaScript and your knowledge of Batman.",
+        "href": "https://drubaloo.github.io/Trivia-Quiz/",
+        "tags": ["HTML", "CSS", "JS"]
+    },
+    {
+        "id": 6,
+        "name": "Weather Dashboard",
+        "image": "https://raw.githubusercontent.com/Drubaloo/Weather-Dashboard/master/assets/Images/preview.png",
+        "description": "A simple weather app to make your day easier using a free API.",
+        "href": "https://drubaloo.github.io/Weather-Dashboard/",
+        "tags": ["HTML", "CSS", "JS", "API"]
+    }, 
+    {
+        "id": 7,
+        "name": "Team Profile Generator",
+        "image": "https://raw.githubusercontent.com/Drubaloo/team-profile-generator/master/preview.png",
+        "description": "Develop a team connections website using the command line.",
+        "href": "https://github.com/Drubaloo/team-profile-generator",
+        "tags": ["HTML", "CSS", "JS", "NODE", "JEST"]
+    }, 
+    {
+        "id": 8,
+        "name": "Bug Out",
+        "image": "https://bug-out-tracker.herokuapp.com/static/media/1iwcit1gidyy.1854803b.jpg",
+        "description": "A tool made to help a team track bugs",
+        "href": "https://bug-out-tracker.herokuapp.com/",
+        "tags": ["HTML", "CSS", "JS", "EXPRESS", "REACT", "MONGO"]
+    },
+    {
+        "id": 9,
+        "name": "Bug Out",
+        "image": "https://bug-out-tracker.herokuapp.com/static/media/1iwcit1gidyy.1854803b.jpg",
+        "description": "A tool made to help a team track bugs",
+        "href": "https://bug-out-tracker.herokuapp.com/",
+        "tags": ["HTML", "CSS", "JS", "EXPRESS", "REACT", "MONGO", "MONGOOSE", "AUTHENTICATION"]
+    }
+]
