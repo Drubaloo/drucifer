@@ -24,14 +24,14 @@ export function Model(props) {
 
   useFrame((state, delta) => {
     // group.current.rotation.y += delta
-    purplePyramid.current.rotation.y += delta
-    purplePyramidLines.current.rotation.y += delta
-    bluePyramid.current.rotation.y += delta
-    bluePyramidLines.current.rotation.y += delta
-    blueLog.current.rotation.x += delta
-    blueLogLines.current.rotation.x += delta
-    blueBlock.current.rotation.z += delta
-    blueBlockLines.current.rotation.z += delta
+    purplePyramid.current.rotation.y += (delta / 2.5)
+    purplePyramidLines.current.rotation.y += (delta / 2.5)
+    bluePyramid.current.rotation.y += (delta / 2.5)
+    bluePyramidLines.current.rotation.y += (delta / 2.5)
+    blueLog.current.rotation.x += (delta / 2.5)
+    blueLogLines.current.rotation.x += (delta / 2.5)
+    blueBlock.current.rotation.z += (delta / 2.5)
+    blueBlockLines.current.rotation.z += (delta / 2.5)
   })
 
   return (
@@ -205,7 +205,7 @@ export function Model(props) {
 
 useGLTF.preload(shapes);
 
-export default function BackgroundShapes() {
+export default function Background002() {
 
   return <div style={{ zIndex: "-1", position: "fixed", height: "100dvh", width: "100dvw", border: "2px solid red", pointerEvents: "none" }}>
     <Canvas orthographic camera={{ zoom: 125, position: [0, 0, 10] }} >

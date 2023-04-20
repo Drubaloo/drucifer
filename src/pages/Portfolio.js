@@ -28,9 +28,10 @@ export default function Portfolio() {
     const stylesheet = {
         parent: {
             display: "flex",
-            justifyContent: "center",
-            paddingTop: "5dvh"
-
+            justifyContent: "space-between",
+            paddingTop: "5dvh",
+            width: "100dvw",
+            marginTop: "9%"
         },
         buttonList: {
             width: "50%",
@@ -42,12 +43,13 @@ export default function Portfolio() {
         },
         projectList: {
             width: "50%",
-            height: "65dvh",
+            height: "73dvh",
             overflowY: "auto",
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            scrollbarWidth: "thin",
+            textAlign: "center",
+            scrollbarWidth: "thick",
             scrollbarColor: "#7262D4 #35BD8B", // for Firefox only
             "&::-webkit-scrollbar": {
                 width: "8px",
@@ -63,7 +65,8 @@ export default function Portfolio() {
             border: "2px solid black",
             borderRadius: "25px",
             padding: "2%",
-            backgroundColor: "#35BD8B"
+            backgroundColor: "#35BD8B",
+            // width: "25%"
         },
         button: {
             backgroundColor: "#C9288F",
@@ -72,6 +75,11 @@ export default function Portfolio() {
             borderRadius: "25px",
             padding: "3% 5% 3% 5%",
             width: "25%"
+        },
+        cardList: {
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center"
         }
     }
 
@@ -88,7 +96,7 @@ export default function Portfolio() {
             </div>
             <PerfectScrollbar style={stylesheet.projectList}>
                 <h1 style={stylesheet.title}>Projects</h1>
-                <div>
+                <div style={stylesheet.cardList}>
                     {projectState.map(project => (
                         <ProjectCard
 
@@ -101,7 +109,8 @@ export default function Portfolio() {
 
                         />
 
-                    ))}</div>
+                    ))}
+                </div>
             </PerfectScrollbar>
         </section>
     )

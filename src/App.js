@@ -6,8 +6,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from './pages/Homepage';
 import Navbar from "./components/navbar/Navbar"
 import './App.css';
-import BackgroundShapes from './components/backgroundShapes';
+// import BackgroundShapes from './components/backgroundShapes';
 import Portfolio from './pages/Portfolio';
+import Background002 from './components/Background002';
 
 
 
@@ -26,7 +27,7 @@ function App() {
 
   return (
     <div>
-      <BackgroundShapes />
+      <Background002 />
       <Router>
           <Navbar />
         <div style={styleSheet.parent}>
