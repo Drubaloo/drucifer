@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/drucifer/static/css/main.e820a219.css",
-    "main.js": "/drucifer/static/js/main.2312b3bb.js",
+    "main.js": "/drucifer/static/js/main.d5d2384d.js",
     "static/js/787.d4f6ac96.chunk.js": "/drucifer/static/js/787.d4f6ac96.chunk.js",
-    "static/media/backgroundShapes.gltf": "/drucifer/static/media/backgroundShapes.62b608f6b9ed0b5f5fd8.gltf",
+    "static/media/background002.gltf": "/drucifer/static/media/background002.12abd3e007e8baf705f3.gltf",
     "static/media/skullBoardAnimation002.gltf": "/drucifer/static/media/skullBoardAnimation002.d7382c60e21c03be3177.gltf",
     "index.html": "/drucifer/index.html",
     "main.e820a219.css.map": "/drucifer/static/css/main.e820a219.css.map",
-    "main.2312b3bb.js.map": "/drucifer/static/js/main.2312b3bb.js.map",
+    "main.d5d2384d.js.map": "/drucifer/static/js/main.d5d2384d.js.map",
     "787.d4f6ac96.chunk.js.map": "/drucifer/static/js/787.d4f6ac96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e820a219.css",
-    "static/js/main.2312b3bb.js"
+    "static/js/main.d5d2384d.js"
   ]
 }
