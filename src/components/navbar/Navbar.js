@@ -46,7 +46,7 @@ function Navbar() {
                 <Skullboard />
             </NavLink>
             <ul style={listStyle}>
-                <li><NavLink style={itemStyle} isActive={checkActive} to="/drucifer" activeStyle={activeStyle}>Home</NavLink></li>
+                <li><NavLink style={itemStyle} isActive={checkActive} to="/" activeStyle={activeStyle}>Home</NavLink></li>
                 <li><NavLink style={itemStyle} to="/drucifer/portfolio" activeStyle={activeStyle}>Portfolio</NavLink></li>
                 <li><NavLink style={itemStyle} to="/drucifer/contact" activeStyle={activeStyle}>Contact</NavLink></li>
             </ul>
