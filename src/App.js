@@ -10,6 +10,7 @@ import './App.css';
 import Portfolio from './pages/Portfolio';
 import Background002 from './components/Background002';
 import Landing from './pages/Landing';
+import Contact from './pages/Contact';
 
 
 
@@ -42,11 +43,10 @@ function App() {
           <Routes>
             <Route exact path="/drucifer/portfolio" element={<Portfolio />} />
 
-            <Route exact path="/drucifer/contact" element="<h1>contact</h1>" />
+            <Route exact path="/drucifer/contact" element={<Contact />}/>
 
-            <Route exact path="*" element={<Homepage />} />
+            <Route exact path="*" element={<Homepage toggle={toggle}/>} />
 
-            <Route exact path="/drucifer/" element={<Landing toggle={toggle} />}/>
           </Routes>
         </div>
       </Router>
