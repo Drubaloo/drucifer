@@ -38,7 +38,7 @@ function App() {
     <div>
       <Background002 start={spin} />
       <Router>
-        <Navbar />
+        <Navbar toggle={toggle}/>
         <div style={styleSheet.parent}>
           <Routes>
             <Route exact path="/drucifer/portfolio" element={<Portfolio />} />
@@ -47,6 +47,7 @@ function App() {
 
             <Route exact path="*" element={<Homepage toggle={toggle}/>} />
 
+            <Route exact path="/drucifer/" element={<Landing toggle={toggle} />}/>
           </Routes>
         </div>
       </Router>

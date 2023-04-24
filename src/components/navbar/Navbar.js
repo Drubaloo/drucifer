@@ -1,43 +1,46 @@
 import { NavLink } from "react-router-dom";
 import Skullboard from "../skullboard";
-function Navbar() {
+function Navbar({ toggle }) {
 
     const navbarStyle = {
         display: "flex",
         fontSize: "1.5rem",
-        flexWrap: "wrap",
+        // flexWrap: "wrap",
         background: `linear-gradient( rgba(252, 168, 14, 1) 0%, rgba(252, 168, 14, 0.6670869031206232) 75%, rgba(252, 168, 14, 0.1292717770702031) 100%)`,
         width: "100dvw",
         position: "fixed"
-      };
+    };
 
     const listStyle = {
         display: "flex",
         width: "50vw",
-        justifyContent: "space-evenly",
+        justifyContent: "space-between",
         alignContent: "center",
         listStyleType: "none",
         alignSelf: "center",
+        border: "2px solid red",
         // marginLeft: "12vw"
     }
 
     const itemStyle = {
         textDecoration: "none",
         color: "#000000",
+        width: "33%"
     }
 
     const activeStyle = {
-        backgroundColor: "green",
-        color: "purple"
+        backgroundColor: "#7262d4",
+        textDecoration: "none",
+        width: "33%",
+        border: "2px solid red",
+        color: "#fca80e"
     }
 
-    const checkActive = (match, location) => {
-        //some additional logic to verify you are in the home URI
-        if (!location) return false;
-        const { pathname } = location;
-        console.log(pathname);
-        return pathname === "/";
+    const listItems = {
+        border: "2px solid blue",
+        textAlign: "center"
     }
+
 
 
     return (
@@ -46,9 +49,12 @@ function Navbar() {
                 <Skullboard />
             </NavLink>
             <ul style={listStyle}>
-                <li><NavLink style={itemStyle} isActive={checkActive} to="/" activeStyle={activeStyle}>Home</NavLink></li>
-                <li><NavLink style={itemStyle} to="/drucifer/portfolio" activeStyle={activeStyle}>Portfolio</NavLink></li>
-                <li><NavLink style={itemStyle} to="/drucifer/contact" activeStyle={activeStyle}>Contact</NavLink></li>
+            <NavLink style={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/"><li style={listItems}>Home</li></NavLink>
+                <li style={listItems}><NavLink style={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/drucifer/portfolio">Portfolio</NavLink></li>
+                <li style={listItems}><NavLink style={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/drucifer/contact">Contact</NavLink></li>
             </ul>
         </div>
     )
