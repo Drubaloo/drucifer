@@ -37,7 +37,7 @@ function App() {
 
             <Route exact path="*" element={<Homepage toggle={toggle}/>} />
 
-            <Route exact path="/drucifer/" element={<Landing toggle={toggle} />}/>
+            {/* <Route exact path="/drucifer/" element={<Landing toggle={toggle} />}/> */}
 
             <Route exact path="/rebel" element={<Rebel toggle={toggle} />}/>
           </Routes>
