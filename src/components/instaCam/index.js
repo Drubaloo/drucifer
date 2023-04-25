@@ -15,7 +15,7 @@ export function Model(props) {
         if (open) {
             flash.current.rotation.x = Math.max(flash.current.rotation.x - delta * 2, 1.5);
         } else {
-            flash.current.rotation.x = Math.min(flash.current.rotation.x + delta * 2, 5);
+            flash.current.rotation.x = Math.min(flash.current.rotation.x + delta * 2, 4.71);
         }
     })
 
