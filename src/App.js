@@ -35,9 +35,9 @@ function App() {
 
             <Route exact path="/drucifer/contact" element={<Contact />}/>
 
-            <Route exact path="*" element={<Homepage toggle={toggle}/>} />
+            <Route exact path="*" element={<Homepage/>} />
 
-            {/* <Route exact path="/drucifer/" element={<Landing toggle={toggle} />}/> */}
+            <Route exact path="/drucifer/" element={<Homepages/>}/>
 
             <Route exact path="/rebel" element={<Rebel toggle={toggle} />}/>
           </Routes>
