@@ -14,11 +14,11 @@ function Navbar({ toggle }) {
     const listStyle = {
         display: "flex",
         width: "50vw",
-        justifyContent: "space-between",
+        justifyContent: "space-around",
         alignContent: "center",
         listStyleType: "none",
         alignSelf: "center",
-        border: "2px solid red",
+        padding: 0
         // marginLeft: "12vw"
     }
 
@@ -32,12 +32,10 @@ function Navbar({ toggle }) {
         backgroundColor: "#7262d4",
         textDecoration: "none",
         width: "33%",
-        border: "2px solid red",
         color: "#fca80e"
     }
 
     const listItems = {
-        border: "2px solid blue",
         textAlign: "center"
     }
 
@@ -45,17 +43,36 @@ function Navbar({ toggle }) {
 
     return (
         <div className="navBar" style={navbarStyle}>
+
             <NavLink to="/">
+
                 <Skullboard />
+
             </NavLink>
+
             <ul style={listStyle}>
-            <NavLink style={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/"><li style={listItems}>Home</li></NavLink>
-                <li style={listItems}><NavLink style={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/drucifer/portfolio">Portfolio</NavLink></li>
-                <li style={listItems}><NavLink style={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/drucifer/contact">Contact</NavLink></li>
+
+                <NavLink style={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/">
+                    <li style={listItems}>Home</li>
+                </NavLink>
+
+                <NavLink style={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/drucifer/portfolio">
+
+                    <li style={listItems}>Portfolio</li>
+
+                </NavLink>
+
+                <NavLink style={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? activeStyle : itemStyle} to="/drucifer/contact">
+
+                    <li style={listItems}>Contact</li>
+
+                </NavLink>
+
             </ul>
+
         </div>
     )
 };
