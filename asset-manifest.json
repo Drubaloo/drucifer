@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/drucifer/static/css/main.99f3394a.css",
-    "main.js": "/drucifer/static/js/main.ef789451.js",
+    "main.css": "/drucifer/static/css/main.0e41a14d.css",
+    "main.js": "/drucifer/static/js/main.ec9af3d1.js",
     "static/js/787.d4f6ac96.chunk.js": "/drucifer/static/js/787.d4f6ac96.chunk.js",
     "static/media/background002.gltf": "/drucifer/static/media/background002.12abd3e007e8baf705f3.gltf",
+    "static/media/skullboard.gltf": "/drucifer/static/media/skullboard.fc29d93dbcea2b5a76da.gltf",
     "static/media/LinkdInLogo.gltf": "/drucifer/static/media/LinkdInLogo.52f16e38040c47234f18.gltf",
-    "static/media/skullBoardAnimation002.gltf": "/drucifer/static/media/skullBoardAnimation002.d7382c60e21c03be3177.gltf",
     "static/media/instaCam.gltf": "/drucifer/static/media/instaCam.fb60af70774fda035cd7.gltf",
     "static/media/envelope.gltf": "/drucifer/static/media/envelope.b3524156db5dcbbc18f4.gltf",
     "static/media/Drexs.ttf": "/drucifer/static/media/Drexs.0ba89092ecd258929a91.ttf",
     "static/media/MonoRegular-jEmAR.ttf": "/drucifer/static/media/MonoRegular-jEmAR.2f3fa2b55a39f16ee7a3.ttf",
     "index.html": "/drucifer/index.html",
-    "main.99f3394a.css.map": "/drucifer/static/css/main.99f3394a.css.map",
-    "main.ef789451.js.map": "/drucifer/static/js/main.ef789451.js.map",
+    "main.0e41a14d.css.map": "/drucifer/static/css/main.0e41a14d.css.map",
+    "main.ec9af3d1.js.map": "/drucifer/static/js/main.ec9af3d1.js.map",
     "787.d4f6ac96.chunk.js.map": "/drucifer/static/js/787.d4f6ac96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99f3394a.css",
-    "static/js/main.ef789451.js"
+    "static/css/main.0e41a14d.css",
+    "static/js/main.ec9af3d1.js"
   ]
 }
