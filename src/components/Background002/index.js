@@ -132,8 +132,8 @@ useGLTF.preload(require('../../assets/3dModels/background002.gltf'))
 
 export default function BackgroundShapes(props) {
 
-    return <div style={{ zIndex: "-1", position: "fixed", height: "100dvh", width: "100dvw", border: "2px solid red", pointerEvents: "none" }}>
-        <Canvas orthographic camera={{ zoom: 3, position: [0, 0, 0] }} >
+    return <div style={{ zIndex: "-1", position: "fixed", height: "100dvh", width: "100dvw", pointerEvents: "none" }}>
+        <Canvas orthographic camera={{ zoom: 2.5, position: [0, 0, 0] }} >
             <OrbitControls enablePan={false} enableZoom={false} enableRotate={true} default={true} />
             <ambientLight intensity={0.5} />
             <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
