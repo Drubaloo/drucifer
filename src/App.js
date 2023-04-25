@@ -11,6 +11,7 @@ import Portfolio from './pages/Portfolio';
 import Background002 from './components/Background002';
 import Landing from './pages/Landing';
 import Contact from './pages/Contact';
+import Rebel from './pages/Rebel';
 
 
 
@@ -37,6 +38,8 @@ function App() {
             <Route exact path="*" element={<Homepage toggle={toggle}/>} />
 
             <Route exact path="/drucifer/" element={<Landing toggle={toggle} />}/>
+
+            <Route exact path="/rebel" element={<Rebel toggle={toggle} />}/>
           </Routes>
         </div>
       </Router>

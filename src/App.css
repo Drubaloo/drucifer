@@ -146,6 +146,7 @@
     padding: 2vw;
 }
 
+
 /* homepage styling end */
 
 /* portfolio styling beginning */
@@ -255,7 +256,12 @@
     }
 
     .buttonList {
-        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        top: 90%;
+        position: fixed;
+        width: 85%;
         margin-bottom: 5vh;
     }
 
@@ -265,13 +271,19 @@
         margin-bottom: 5vh;
     }
 
+    .buttonList h1{
+        display: none;
+    }
+
     .title {
         width: 80%;
+        text-align: center;
     }
 
     .button {
-        text-align: center;
-        width: 30%;
+        display: flex;
+        justify-content: center;
+        width: 17%;
     }
 }
 
@@ -358,7 +370,7 @@
 
     /* Homepage */
     .about {
-        margin-top: 60%;
+        margin-top: 45%;
         width: 80vw;
         padding: 4vw;
     }
@@ -366,12 +378,20 @@
     /* Portfolio */
     .displayBody {
         flex-direction: column;
-        margin-top: 20%;
+        margin-top: 27%;
     }
 
     .buttonList {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        top: 95%;
         width: 100%;
         margin-bottom: 10%;
+    }
+
+    .buttonList h1{
+        display: none;
     }
 
     .projectList {
@@ -382,5 +402,11 @@
 
     .cardList {
         margin-bottom: 10%;
+    }
+
+    .rebeliousDiv{
+        margin-top: 45%;
+        width: 80vw;
+        padding: 4vw;
     }
 }

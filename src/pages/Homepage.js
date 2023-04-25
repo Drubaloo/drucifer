@@ -1,20 +1,6 @@
 
 export default function Homepage() {
 
-    const styleSheet = {
-        about: {
-            border: "2px black solid",
-            borderRadius: "25px",
-            backgroundColor: "#fca80e",
-            width: "50dvw",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            textAlign: "center",
-            padding: "2vw"
-        }
-    }
-
     return (
         <section className="about">
             <h1>Who am I?</h1>

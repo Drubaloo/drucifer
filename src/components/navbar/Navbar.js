@@ -5,7 +5,7 @@ function Navbar({ toggle }) {
     return (
         <div className="navBar">
 
-            <figure aria-label="skullboard logo">
+            <figure aria-label="skullboard logo" onClick={() => {toggle()}}>
                 <NavLink to="/rebel" className="unclickable">
                     <Skullboard />
                     <figcaption >DON'T CLICK</figcaption>
