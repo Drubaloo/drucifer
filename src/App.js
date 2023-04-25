@@ -37,7 +37,7 @@ function App() {
 
             <Route exact path="*" element={<Homepage/>} />
 
-            <Route exact path="/drucifer/" element={<Homepages/>}/>
+            <Route exact path="/drucifer/" element={<Homepage/>}/>
 
             <Route exact path="/rebel" element={<Rebel toggle={toggle} />}/>
           </Routes>
