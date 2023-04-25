@@ -23,23 +23,12 @@ function App() {
     setSpin(!spin)
   }
 
-  const styleSheet = {
-    parent: {
-      display: "flex",
-      zIndex: "100",
-      flexWrap: "wrap",
-      justifyContent: "center",
-      alignContent: "center",
-      height: "100dvh"
-    }
-  }
-
   return (
     <div>
       <Background002 start={spin} />
       <Router>
         <Navbar toggle={toggle}/>
-        <div style={styleSheet.parent}>
+        <div className='body'>
           <Routes>
             <Route exact path="/drucifer/portfolio" element={<Portfolio />} />
 

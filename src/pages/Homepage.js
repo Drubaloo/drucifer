@@ -16,7 +16,7 @@ export default function Homepage() {
     }
 
     return (
-        <section style={styleSheet.about}>
+        <section className="about">
             <h1>Who am I?</h1>
             <p>I'm a web developer who loves to longboard, design in 3D, and print my creations. When I'm not cruising down the street and feeling the wind in my hair, I spend my time teaching web development to aspiring developers.
                 <br />

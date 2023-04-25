@@ -1,0 +1,386 @@
+.body {
+    display: flex;
+    z-index: 100;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100dvh;
+}
+
+/* Navbar styling beginning */
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background: linear-gradient(rgba(252, 168, 14, 1) 0%, rgba(252, 168, 14, 0.6670869031206232) 75%, rgba(252, 168, 14, 0.1292717770702031) 100%);
+    width: 100dvw;
+    position: fixed;
+}
+
+.navBar figure {
+    text-align: center;
+    font-size: 1rem;
+    height: 5%;
+    width: 10%;
+    padding: 0;
+}
+
+.navBar figcaption {
+    margin-top: -25%;
+}
+
+.unclickable {
+    /* Navlink forces underline, regretable use of !important, watch for screen breaks */
+    text-decoration: none !important;
+    color: black;
+}
+
+.navBar ul {
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    align-content: center;
+    list-style-type: none;
+    align-self: center;
+    padding: 0;
+}
+
+.navBar ul li {
+    text-align: center;
+}
+
+.inactiveStyle {
+    text-decoration: none;
+    color: #000000;
+    width: 33%;
+}
+
+.activeStyle {
+    background-color: #7262d4;
+    text-decoration: none;
+    width: 33%;
+    color: #fca80e;
+}
+
+.emptyPosition {
+    width: 10%;
+}
+
+/* Navbar styling end */
+
+/* Project Card styling begin */
+
+.card {
+    background-color: #fca80e;
+    width: 75%;
+    padding: 4% 1% 4% 1%;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 75%;
+}
+
+.card button {
+    background-color: #C9288F;
+    text-align: center;
+    color: white;
+    border: 2px #7262D4 solid;
+    border-radius: 25px;
+    padding: 3% 5% 3% 5%;
+    width: 25%;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+/* Project Card styling end */
+
+/* contact styling begin */
+
+.contact {
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: #fca80e;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2vw;
+}
+
+.contact .logoBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    padding: 0;
+}
+
+/* contact styling begin */
+
+/* homepage styling begin */
+
+.about {
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: #fca80e;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2vw;
+}
+
+/* homepage styling end */
+
+/* portfolio styling beginning */
+
+.displayBody {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5dvh;
+    width: 100dvw;
+    margin-top: 9%;
+}
+
+.buttonList {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectList {
+    width: 50%;
+    height: 73dvh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    scrollbar-width: thick;
+    scrollbar-color: #7262D4 #35BD8B;
+}
+
+.projectList::-webkit-scrollbar {
+    width: 8px;
+    background-color: #7262D4;
+}
+
+.projectList::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #35BD8B;
+}
+
+.title {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: #35BD8B;
+}
+
+.button {
+    background-color: #C9288F;
+    text-align: center;
+    color: white;
+    border: 2px #7262D4 solid;
+    border-radius: 25px;
+    padding: 3% 5% 3% 5%;
+    width: 25%;
+}
+
+.cardList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* portfolio styling end */
+
+/* tablet media queries */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .navBar ul {
+        width: 75%;
+    }
+
+    .activeStyle,
+    .inactiveStyle,
+    .emptyPosition {
+        width: 25%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card button {
+        text-align: center;
+        width: 30%;
+    }
+
+    .contact {
+        width: 80vw;
+    }
+
+    .contact a {
+        width: 25vw;
+    }
+
+    .about {
+        width: 80vw;
+    }
+
+    .displayBody {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10vh;
+    }
+
+    .buttonList {
+        width: 80%;
+        margin-bottom: 5vh;
+    }
+
+    .projectList {
+        width: 80%;
+        height: 50vh;
+        margin-bottom: 5vh;
+    }
+
+    .title {
+        width: 80%;
+    }
+
+    .button {
+        text-align: center;
+        width: 30%;
+    }
+}
+
+/* phone media queries */
+
+@media only screen and (max-width: 480px) {
+
+    /* Body */
+    .body {
+        height: auto;
+    }
+
+    /* Navbar */
+    .navBar figure {
+        font-size: 1rem;
+        height: 8%;
+        width: 20%;
+    }
+
+    .navBar figcaption {
+        margin-top: -50%;
+    }
+
+    .navBar ul {
+        width: 100vw;
+        height: 20%;
+        /* background-color: purple; */
+        justify-content: space-evenly;
+        align-items: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inactiveStyle,
+    .activeStyle,
+    .emptyPosition {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navBar ul li {
+        /* margin-bottom: 10%; */
+        width: 100%;
+    }
+
+    /* Project Card */
+    .card {
+        width: 90%;
+        padding: 5% 2% 5% 2%;
+    }
+
+    .card button {
+        padding: 4% 8% 4% 8%;
+        width: 50%;
+        text-align: center;
+    }
+
+    /* Contact */
+    .contact {
+        width: 80vw;
+        padding: 4vw;
+        margin-top: 45%;
+    }
+
+    .contact a {
+        width: 35vw;
+        padding: 3vw;
+    }
+
+    .logoBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoBox a {
+        height: 20%;
+        width: 100%;
+        margin: -20% 0 -20% 0;
+    }
+
+    /* Homepage */
+    .about {
+        margin-top: 60%;
+        width: 80vw;
+        padding: 4vw;
+    }
+
+    /* Portfolio */
+    .displayBody {
+        flex-direction: column;
+        margin-top: 20%;
+    }
+
+    .buttonList {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .projectList {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+
+    .cardList {
+        margin-bottom: 10%;
+    }
+}
