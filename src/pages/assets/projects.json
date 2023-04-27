@@ -58,17 +58,9 @@
     {
         "id": 8,
         "name": "Bug Out",
-        "image": "https://bug-out-tracker.herokuapp.com/static/media/1iwcit1gidyy.1854803b.jpg",
+        "image": "https://github.com/Drubaloo/bug-out/raw/master/preview.PNG",
         "description": "A tool made to help a team track bugs",
         "href": "https://bug-out-tracker.herokuapp.com/",
         "tags": ["HTML", "CSS", "JS", "EXPRESS", "REACT", "MONGO"]
-    },
-    {
-        "id": 9,
-        "name": "Bug Out",
-        "image": "https://bug-out-tracker.herokuapp.com/static/media/1iwcit1gidyy.1854803b.jpg",
-        "description": "A tool made to help a team track bugs",
-        "href": "https://bug-out-tracker.herokuapp.com/",
-        "tags": ["HTML", "CSS", "JS", "EXPRESS", "REACT", "MONGO", "MONGOOSE", "AUTHENTICATION"]
     }
 ]

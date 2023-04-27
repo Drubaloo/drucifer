@@ -10,10 +10,10 @@ function ProjectCard(props) {
       <figcaption>
         <ul>
           <li>
-            <strong>Name:</strong> <p>{props.name}</p>
+          <p><strong>{props.name}</strong> </p>
           </li>
           <li>
-            <strong>Description:</strong> {props.description}
+            <strong><p>{props.description}</p></strong> 
           </li>
         </ul>
 

@@ -35,6 +35,7 @@ export default function Portfolio() {
                 <button className="button" onClick={() => { findProject("JS") }}>JavaScript</button>
                 <button className="button" onClick={() => { findProject("API") }}>API</button>
                 <button className="button" onClick={() => { findProject("MYSQL") }}>SQL</button>
+                <button className="button" onClick={() => { findProject("MONGO") }}>MongoDB</button>
             </div>
             <PerfectScrollbar className="projectList">
                 <h1 className="title">Projects</h1>

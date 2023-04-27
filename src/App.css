@@ -297,9 +297,18 @@
     }
 
     /* Navbar */
+
+    .navBar{
+        height: 10dvh;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .navBar figure {
         font-size: 1rem;
-        height: 8%;
+        height: 100%;
         width: 20%;
     }
 
@@ -308,7 +317,7 @@
     }
 
     .navBar ul {
-        width: 100vw;
+        width: 200%;
         height: 20%;
         /* background-color: purple; */
         justify-content: space-evenly;
@@ -318,8 +327,7 @@
     }
 
     .inactiveStyle,
-    .activeStyle,
-    .emptyPosition {
+    .activeStyle {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -396,8 +404,8 @@
 
     .projectList {
         width: 100%;
-        height: auto;
-        margin-bottom: 10%;
+        /* height: auto; */
+        margin-top: 1dvh;
     }
 
     .cardList {
@@ -411,7 +419,7 @@
     }
 }
 
-@media only screen and (max-width: 568px) {
+/* @media only screen and (max-width: 568px) {
     .body {
         height: auto;
     }
@@ -532,4 +540,4 @@
         padding: 2% 5% 2% 5%;
     }
 
-}
+} */
