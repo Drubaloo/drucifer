@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/drucifer/static/css/main.3c059e0a.css",
-    "main.js": "/drucifer/static/js/main.9e752f8f.js",
+    "main.css": "/drucifer/static/css/main.5b37453b.css",
+    "main.js": "/drucifer/static/js/main.80ff09b2.js",
     "static/js/787.d4f6ac96.chunk.js": "/drucifer/static/js/787.d4f6ac96.chunk.js",
     "static/media/background002.gltf": "/drucifer/static/media/background002.12abd3e007e8baf705f3.gltf",
     "static/media/skullboard.gltf": "/drucifer/static/media/skullboard.fc29d93dbcea2b5a76da.gltf",
@@ -11,12 +11,12 @@
     "static/media/Drexs.ttf": "/drucifer/static/media/Drexs.0ba89092ecd258929a91.ttf",
     "static/media/MonoRegular-jEmAR.ttf": "/drucifer/static/media/MonoRegular-jEmAR.2f3fa2b55a39f16ee7a3.ttf",
     "index.html": "/drucifer/index.html",
-    "main.3c059e0a.css.map": "/drucifer/static/css/main.3c059e0a.css.map",
-    "main.9e752f8f.js.map": "/drucifer/static/js/main.9e752f8f.js.map",
+    "main.5b37453b.css.map": "/drucifer/static/css/main.5b37453b.css.map",
+    "main.80ff09b2.js.map": "/drucifer/static/js/main.80ff09b2.js.map",
     "787.d4f6ac96.chunk.js.map": "/drucifer/static/js/787.d4f6ac96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c059e0a.css",
-    "static/js/main.9e752f8f.js"
+    "static/css/main.5b37453b.css",
+    "static/js/main.80ff09b2.js"
   ]
 }
